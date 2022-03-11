@@ -1,0 +1,17 @@
+body{
+background-color: whitesmoke;
+font-family: "Circular",'BlinkMacSystemFont','Roboto', "Helvetica Neue", sans-serif;
+letter-spacing: .2rem;
+}
+
+header{
+background-color: lightgrey;
+}
+nav{
+background-color: grey;
+}
+.container{
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+}
