@@ -13,5 +13,16 @@ background-color: grey;
 .container{
     display: flex; 
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img{
+    display: inline-block;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    border: .25rem solid grey;
+    padding: .5rem;
+
 }
